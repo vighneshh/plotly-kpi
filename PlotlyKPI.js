@@ -195,7 +195,7 @@ function ( qlik, $ , Plotly) {
                         }
 		
 
-				//
+				
 			}
 		},
 		snapshot: {
@@ -209,12 +209,12 @@ function ( qlik, $ , Plotly) {
 			
 			
 
-		// set the dimensions and margins of the graph
+		
 		var margin = {top: 20, right: 20, bottom: 30, left: 50},
 		    width1 = $element.width() - margin.left - margin.right,
 		    height1 = $element.height() - margin.top - margin.bottom;
 
-		// parse the date / time
+		
 		var qHyperCube = layout.qHyperCube;
 		var qMatrix = layout.qHyperCube.qDataPages[0].qMatrix;
 		var qMeasureInfo = qHyperCube.qMeasureInfo;
@@ -226,10 +226,6 @@ function ( qlik, $ , Plotly) {
 		var chartt = 'scatter';
 
 		
-		debugger;
-		console.log(qHyperCube);
-		
-		// alert(qMeasureInfo);
 
 		if(temp == "#,##0"){ fmt = ","} else if(temp == "#,##0.0"){ fmt = ",.1f"}else if(temp == "#,##0.00"){ fmt = ",.2f"}
 		else if(temp == "0%"){ fmt = "%"}else if(temp == "0.0%"){ fmt = ".1%"}else if(temp == "0.00%"){ fmt = ".2%"}else if(temp == "₹ #,##0.00;-₹ #,##0.00"){ fmt = ",.2f"; pre = "₹"}
@@ -250,12 +246,9 @@ function ( qlik, $ , Plotly) {
 		};
 
 
-		// if (qMeasureInfo.length == 1){
-			var m = "number";
-		// }
-		// else{
-		// 	var m = "number+delta";
-		// }
+		
+		var m = "number";
+		
 		
 		if (qMeasureInfo.length == 1 && qDimensionInfo.length == 1){
 			var data = [
