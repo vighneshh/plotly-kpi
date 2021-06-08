@@ -21,8 +21,10 @@ Plotly KPI extension is configurable and clean looking KPI Extension for Qlik Se
 
 ### With One Measure
 
-![mea1](./img/measure1.png)  ![mea2](./img/measure2.png) ![mea3](./img/measure2.png)
+![mea1](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/measure1.png?raw=true)  ![mea2](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/measure2.png?raw=true) ![mea3](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/measure2.png?raw=true)
+
 
 ### With One Measure and One Dimension (as trend)
-![dim1](./img/dim1.png)  ![dim2](./img/dim2.png) ![dim3](./img/dim3.png)
+![dim1](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/dim1.png?raw=true)  ![dim2](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/dim2.png?raw=true) ![dim3](https://raw.githubusercontent.com/vighneshh/plotly-kpi/master/img/dim3.png?raw=true)
+
 
