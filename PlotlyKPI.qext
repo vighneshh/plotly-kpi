@@ -1,0 +1,16 @@
+{
+	"name": "PlotlyKPI",
+	"description": "Simple Slope KPI using plotly library",
+	"icon": "kpi",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "vighnesh gawad",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "https://github.com/vighneshh/plotly-kpi",
+	"preview": "logo.png",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

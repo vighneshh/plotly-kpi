@@ -1,0 +1,27 @@
+.qv-object-PlotlyKPI div.qv-object-content-container {
+	overflow: auto;
+}
+.qv-object-PlotlyKPI td,
+.qv-object-PlotlyKPI th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-PlotlyKPI td.numeric {
+	text-align: right;
+}
+.qv-object-PlotlyKPI button {
+	width: 100%;
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
